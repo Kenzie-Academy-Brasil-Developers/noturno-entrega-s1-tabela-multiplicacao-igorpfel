@@ -1,9 +1,16 @@
-function nomeDaFuncao() { 
-    // Substitua "nomeDaSuaFuncao" por um nome mais apropriado
-    // TODO: escrever dois loops aninhados para desenhar o array bidimensional e monstar o restante da tabela no console.
+function tabelaMult() { 
+  
     let x = [];
+
     for (let i = 0; i <= 10; i++) {
-        x[i] = [];
-    }
-    console.table(x)
+       
+           x.push([])
+          for (let j = 0; j <= 10; j++){
+                x[i].push(i * j);
+                                                            
+          }                                   
+       
+    }console.table(x)
+
 }
+    tabelaMult();
